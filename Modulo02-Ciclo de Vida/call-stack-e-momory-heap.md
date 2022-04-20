@@ -1,5 +1,5 @@
 Call Stack basicamente grava a sequencia de ações que o programa vai executar linha por linha,
-guarda as futuras ações no formato pilhar(first in,last out) so trabalha com tipos primitivos
+guarda as futuras ações no formato pilha(first in,last out) so trabalha com tipos primitivos
 
 Memory heap(pilha de memoria) - lugar onde são armazenados endereços de memória 
 que podem ser apontados pelo callstack, para trabalhar valores de funções,objetos,arrays...
