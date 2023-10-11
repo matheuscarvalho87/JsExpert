@@ -1,1 +1,23 @@
-[{"id":"d6be66f5-cf3c-4cd4-8bc6-1b299fd36d0c","name":"Sentra","releaseYear":2021,"available":true,"gasAvailable":true},{"id":"0963443f-c3b5-49a0-8923-5ce8144af3a6","name":"CTS","releaseYear":2021,"available":true,"gasAvailable":true},{"id":"a5dbdf48-7422-40e6-b060-7b192c865ec8","name":"Fortwo","releaseYear":2020,"available":true,"gasAvailable":true}]
+[
+  {
+    "id": "d6be66f5-cf3c-4cd4-8bc6-1b299fd36d0c",
+    "name": "Sentra",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "0963443f-c3b5-49a0-8923-5ce8144af3a6",
+    "name": "CTS",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "a5dbdf48-7422-40e6-b060-7b192c865ec8",
+    "name": "Fortwo",
+    "releaseYear": 2020,
+    "available": true,
+    "gasAvailable": true
+  }
+]

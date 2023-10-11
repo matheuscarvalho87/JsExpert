@@ -1,1 +1,12 @@
-[{"id":"d7d6218b-1320-4770-8fdb-18feca90195a","name":"Crew Cab Pickup","carIds":["d6be66f5-cf3c-4cd4-8bc6-1b299fd36d0c","0963443f-c3b5-49a0-8923-5ce8144af3a6","a5dbdf48-7422-40e6-b060-7b192c865ec8"],"price":"49.59"}]
+[
+  {
+    "id": "d7d6218b-1320-4770-8fdb-18feca90195a",
+    "name": "Crew Cab Pickup",
+    "carIds": [
+      "d6be66f5-cf3c-4cd4-8bc6-1b299fd36d0c",
+      "0963443f-c3b5-49a0-8923-5ce8144af3a6",
+      "a5dbdf48-7422-40e6-b060-7b192c865ec8"
+    ],
+    "price": "49.59"
+  }
+]
