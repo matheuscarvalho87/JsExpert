@@ -1,0 +1,52 @@
+regex101.com
+^\d{3}.\d{3}.\d{3}-\d{2}$
+\d = digito
+{x} = pega o x primeiros digitos, carcateres atrapalham
+123.123.132-14
+321.321.654-13
+200.651.541.45
+
+detro dos [] funciona como ou, ou vai ser . ou vai ser - abaixo.
+replace [.-] - vazio
+//esse raplace é feito dentro do vs code no ctrl+f
+#################
+\w = word character, pega cada letra
+\w+ = pega a letra até que não seja uma letra ou número
+\s = pega o espaço
+\S = nao quero o espaço
+() = separa o que ta dentro em grupos 
+
+replace:
+  (\w+),\s(\w+)$
+por:
+{firstName:"$2", lastName:"$1"}
+
+Wendel, Erick
+Gomes, Laila
+Johnson, Jose
+
+####################
+O [Matheus Carvalho](https://linkedin.com/matheuscarvalho87) faz palestras para o mundo todo
+ele trabalha na [Empresax](https://app.zenvia.com)
+
+Esse treinamento é [Foda](http://jsexpert.com.br)
+
+Rumo ao certificado!
+
+
+
+seleciona tudo dentro de []
+? para parar no fechamento do []
+             tudo dentro de () que comece com http ou https
+\[(.*?)\]\(([http|https].*?)\)
+
+fazendo o replace: <a href="$2">$1</a>
+
+O <a href="https://linkedin.com/matheuscarvalho87">Matheus Carvalho</a> faz palestras para o mundo todo
+ele trabalha na <a href="https://app.zenvia.com">Empresax</a>
+
+Esse treinamento é <a href="http://jsexpert.com.br">Foda</a>
+
+Rumo ao certificado!
+
+###############################################

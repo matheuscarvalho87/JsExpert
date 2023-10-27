@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "nodemon": "^3.0.1"
-  },
-  "volta": {
-    "node": "14.21.3"
-  }
-}
