@@ -1,0 +1,22 @@
+{
+  "name": "@matheuscarvalho/codegen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin":{
+    "codegen":"./src/index.js"
+  },
+  "scripts": {
+    "start":"NODE_ENV=dev node src/index.js skeleton -c product -c person -c colors",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --watch --config ./jest.config.js",
+    "test:cov": "NODE_OPTIONS=--experimental-vm-modules npx jest --config ./jest.config.js --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "yargs": "^17.7.2"
+  }
+}
